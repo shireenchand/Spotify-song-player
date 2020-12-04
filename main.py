@@ -6,7 +6,7 @@ import pyautogui
 
 song = input("Enter the name of the song: ")
 artist = input("Enter the name of the artist(Enter skip if don't know): ")
-PATH = "/Users/niharjagruti/Downloads/chromedriver"
+PATH = "DirectoryContainingChromedriver.exe/chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 driver.get("https://accounts.spotify.com/en/login")
 
